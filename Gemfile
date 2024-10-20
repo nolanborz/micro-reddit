@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.2.1"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
@@ -27,7 +28,7 @@ gem "jbuilder"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
-
+gem "bcrypt", "~> 3.1.7"
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
